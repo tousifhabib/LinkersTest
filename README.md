@@ -23,13 +23,20 @@
 
 ```json
 {
-  "default": {
-    "csv_path": "path/to/address.csv",
-    "index_path": "path/to/index.msgpack",
-    "addresses_path": "path/to/addresses.msgpack",
-    "encoding": "UTF-8"
-  }
+   "default": {
+      "csv_path": "path/to/zenkoku.csv",
+      "index_path": "path/to/inverted_index.dat",
+      "addresses_path": "path/to/addresses.dat",
+      "encoding": "CP932:UTF-8"
+   },
+   "test": {
+      "csv_path": "test_addresses.csv",
+      "index_path": "test_inverted_index.dat",
+      "addresses_path": "test_addresses.dat",
+      "encoding": "UTF-8"
+   }
 }
+
 ```
 
 ### インデックスの構築
