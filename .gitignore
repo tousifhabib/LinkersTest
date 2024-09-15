@@ -1,0 +1,12 @@
+*.dat
+config.json
+zenkoku.csv
+/Gemfile.lock
+/vendor/
+
+/.idea/
+/.vscode/
+/*.swp
+
+.DS_Store
+Thumbs.db
